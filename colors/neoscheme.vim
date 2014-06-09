@@ -122,13 +122,38 @@ endfunction
 let s:dark_gray = 233
 let s:light_gray = 242
 
-let s:light_green = 193
+let s:blue0 = 038
+let s:blue1 = 051
+let s:blue2 = 111
 
-let s:normal_fg = s:light_green
+let s:green0 = 193
+let s:green1 = 118
+let s:green2 = 155
+let s:green3 = 154
+
+let s:peach0 = 137
+
+let s:pink0 = 167
+
+let s:purple0 = 140
+
+let s:normal_fg = s:green0
 let s:normal_bg = s:dark_gray
 
 call s:hi('Normal', s:normal_fg, s:normal_bg)
 
 call s:hi('Comment', s:light_gray, s:dark_gray)
+call s:hi('Conditional', s:blue0, s:dark_gray)
+call s:hi('Constant', s:blue1, s:dark_gray)
+call s:hi('Float', s:green1, s:dark_gray)
+call s:hi('Function', s:peach0, s:dark_gray)
+call s:hi('Identifier', s:purple0, s:dark_gray)
+call s:hi('Include', s:blue2, s:dark_gray)
+call s:hi('Number', s:green1, s:dark_gray)
+call s:hi('Repeat', s:blue0, s:dark_gray)
+call s:hi('Special', s:green3, s:dark_gray)
+call s:hi('Statement', s:blue2, s:dark_gray)
+call s:hi('String', s:green2, s:dark_gray)
+call s:hi('Todo', s:dark_gray, s:pink0)
 
 set background=dark
