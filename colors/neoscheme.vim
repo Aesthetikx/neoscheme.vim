@@ -6,7 +6,7 @@
 " File:           neoscheme.vim
 " URL:            github.com/Aesthetikx/neoscheme.vim
 " Version:        1.0.0
-" Last Updated:   June 09, 2014
+" Last Updated:   September 03, 2014
 " Liscense:       MIT
 "
 " The MIT License (MIT)
@@ -149,6 +149,7 @@ call s:hi('Float', s:green1, s:dark_gray)
 call s:hi('Function', s:peach0, s:dark_gray)
 call s:hi('Identifier', s:purple0, s:dark_gray)
 call s:hi('Include', s:blue2, s:dark_gray)
+call s:hi('LineNr', s:light_gray, s:dark_gray)
 call s:hi('Number', s:green1, s:dark_gray)
 call s:hi('Repeat', s:blue0, s:dark_gray)
 call s:hi('Special', s:green3, s:dark_gray)
